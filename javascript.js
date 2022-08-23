@@ -12,21 +12,12 @@ imgPrincipal.addEventListener('mouseout', function(){
 })
 
 //inicio parrafo.
-var parrafo = document.getElementById("parrafo");
-function mostrar(){
-    document.getElementById('parrafo').style.display='block';
+function mostrar(idElement){
+    document.getElementById(idElement).style.display='block';
 }
 
 function ocultar(){
-    document.getElementById('parrafo').style.display='none';
+    document.getElementById(idElement).style.display='none';
 }
 
-//inicio parrafo2.
-var parrafo2 = document.getElementById('parrafo2');
-function mostrar(){
-    document.getElementById('parrafo2').style.display='block';
-}
 
-function ocultar(){
-    document.getElementById('parrafo2').style.display='none';
-}

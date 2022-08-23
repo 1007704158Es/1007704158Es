@@ -60,10 +60,9 @@ header .container
 }
 
 
-header .container .logo
-{
-
-	width: 100px;
+header .container .logo{
+	width: 70px;
+	height: 70px;
 
 }
 
@@ -142,6 +141,31 @@ header .container .hamb
 #servicios .parrafo2{
 	display: none;
 }
+
+#servicios .parrafo3{
+	display: none;
+}
+
+#servicios .parrafo4{
+	display: none;
+}
+
+#servicios .parrafo5{
+	display: none;
+}
+
+#servicios .parrafo6{
+	display: none;
+}
+
+#servicios .parrafo7{
+	display: none;
+}
+
+#servicios .parrafo8{
+	display: none;
+}
+
 
 
 .row{

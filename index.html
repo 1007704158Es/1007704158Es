@@ -2,14 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<title>online news colombia</title>	
+	<title>Mi Sistema solar</title>	
 	<link rel="stylesheet"  href="style.css">	
 </head>
 <body> 
 	<header>
 		<div class="container">
 			<a href="index.html"> 
-				<img src="img/icono.jpg" class="logo">                
+				<img src="img/iconotierra.png" class="logo">                
 			</a>
 			<nav>				
 				<a href="#servicios">Museo interactivo</a>							
@@ -22,12 +22,12 @@
 			<div class="photo1">
 				<img id="imgPrincipal" src="img/sistemasolar.jpg">
 			</div>
-			<div id="button">	
-				<button id="button"onclick="mostrar();">sistema solar</button>		
+			<div>	
+				<button  onclick="mostrar('parrafo');">sistema solar</button>		
 			</div>							   
 			<div id="parrafo" class="parrafo">												
 				<p>Sol años de existencia = Se formó hace aproximadamente 4600 millones de años a partir del colapso gravitacional de la materia dentro de una región de una gran nube molecular. La mayor parte de esta materia se acumuló en el centro, mientras que el resto se aplanó en un disco en órbita que se convirtió en el sistema solar. La masa central se volvió cada vez más densa y caliente, dando lugar con el tiempo al inicio de la fusión nuclear en su núcleo. De que está compuesto el sol = Su composición en función de su masa establece que contiene un 71% de Hidrógeno, un 27% Helio, y un 2% de otros elementos más pesados. Debido a que el Sol es gas y plasma, su rotación cambia con la latitud: un periodo de 24 días en el ecuador y cerca de 36 días en los polos.</p>	
-				<button id="button"onclick="ocultar();">ocultar</button>
+				<button onclick="ocultar('parrafo');">ocultar</button>
 			</div>
 		</section>
 		<section id="servicios" class="seccion">
@@ -38,8 +38,8 @@
 							<div class="bloque-img-servicio cuadrado-perfecto">
 								<img src="img/Mercurio.jpg">
 							</div>
-							<div id="buton2">
-								<button class="buton2" id="button2"onclick="mostrar();">Planeta mercurio</button>
+							<div>
+								<button onclick="mostrar('parrafo2');">Planeta mercurio</button>
 							</div>
 							<div id="parrafo2" class="parrafo2">								
 								<p>Es el planeta más antiguo,o el más joven en realidad, puede que se sorprenda  al  saber que no hay más joven o más viejo planeta.El mercurio es exactamente la misma edad que el resto de los planetas en el sistema solar aproximadamente  4,6 millones de años de antigüedad. 
@@ -47,7 +47,7 @@
 									De que está compuesto mercurio = Mercurio está formado aproximadamente por un 70% de elementos metálicos y un 30% de silicatos. La densidad de este planeta es la segunda más alta de todo el sistema solar, siendo su valor de 5430 kg/m³, solo un poco menor que la densidad de la Tierra.
 									Cuanta distancia hay entre el sol y mercurio = La distancia entre el sol Distancia al Sol: 46.001.200 – 69.816.900 km (Tierra: 149.597.900 km). Irradiancia solar: 6.272 – 14.448 W/m² (Tierra: 1.366 W/m²).
 								</p>
-								<button id="button"onclick="ocultar();">Ver menos</button>								                    
+								<button onclick="ocultar('parrafo2');">Ver menos</button>								                    
 							</div>
         				</div>						
 					</div>
@@ -56,11 +56,14 @@
 							<div class="bloque-img-servicio cuadrado-perfecto">
 								<img src="img/Venus.jpg">
 							</div>
-							<div id= "parrafo2" class="bloque-contenido-servicio">
-								<button id="button"onclick="mostrar();">Planeta venus</button> <button id="button"onclick="ocultar();">Ver menos</button>
+							<div>
+								<button onclick="mostrar('parrafo3');">Planeta venus</button>
+							</div>
+							<div id="parrafo3" class="parrafo3">								 
 								<p>La existencia del planeta Venus es de 4503 millones de años es el segundo planeta del sistema solar en orden de proximidad al Sol y el tercero en cuanto a tamaño en orden ascendente después de Mercurio y Marte. Al igual que Mercurio, carece de satélites naturales. Recibe su nombre en honor a Venus,
-                                    Cuanto dura un dia en venus =   la combinación de sus periodos de rotación y traslación, así como a la inclinación de su eje, en Venus el ciclo día-noche dura aproximadamente 117 días terrestres. Además, y al revés de lo que ocurre en la Tierra, en Venus el Sol sale por el oeste y se pone por el este. Pero eso da igual, ya que un hipotético observador ni siquiera podría verlo desde la superficie, ya que la capa nubosa se lo impediría. En aquel planeta el pronóstico meteorológico siempre es nublado. Cuanto dura un año en venus = es uno de los vecinos más cercanos a la Tierra y sus años son un poco más cortos: le toma 225 días viajar alrededor del Sol. Cuál es la distancia entre el sol y venus = Distancia desde el Sol: 108 millones de Km; Diámetro. De que está compuesto venus = Aunque Venus no es el planeta más cercano al Sol, es el más caliente. Tiene una atmósfera densa, llena de dióxido de carbono, que provoca el efecto invernadero, y de nubes compuestas de ácido sulfúrico. Los gases atrapan el calor y mantienen a Venus bien calentita. De hecho, hace tanto calor en Venus que metales como el plomo serían charcos de metal fundido.
-									</p>						
+                                    Cuanto dura un dia en venus =   la combinación de sus periodos de rotación y traslación, así como a la inclinación de su eje, en Venus el ciclo día-noche dura aproximadamente 117 días terrestres. Además, y al revés de lo que ocurre en la Tierra, en Venus el Sol sale por el oeste y se pone por el este. Pero eso da igual, ya que un hipotético observador ni siquiera podría verlo desde la superficie, ya que la capa nubosa se lo impediría. En aquel planeta el pronóstico meteorológico siempre es nublado. Cuanto dura un año en venus = es uno de los vecinos más cercanos a la Tierra y sus años son un poco más cortos: le toma 225 días viajar alrededor del Sol. Cuál es la distancia entre el sol y venus = Distancia desde el Sol: 108 millones de Km; Diámetro. De que está compuesto venus =
+								</p>	
+								<button onclick="ocultar('parrafo3');">Ver menos</button>					
 							</div>                            
                         </div>
                     </div>
@@ -69,16 +72,17 @@
                                 <div class="bloque-img-servicio cuadrado-perfecto">
                                     <img src="img/Marte.jpg">
                                 </div>
-                                <div id="parrafo3" class="bloque-contenido-servicio">
-                                    <button id="button"onclick="mostrar();">Planeta Marte</button>  <button id="button"onclick="ocultar();">Ver menos</button> 
-                                    <p>  La existencia de Marte es de       4.603 miles de millones años  es el cuarto planeta en orden de distancia al Sol y el segundo más pequeño del sistema solar, después de Mercurio. Recibió su nombre en homenaje al dios de la guerra de la mitología romana.
+								<div>
+									<button onclick="mostrar('parrafo4');">Planeta Marte</button>
+								</div>
+                                <div id="parrafo4" class="parrafo4">                                      
+                                    <p> La existencia de Marte es de 4.603 miles de millones años  es el cuarto planeta en orden de distancia al Sol y el segundo más pequeño del sistema solar, después de Mercurio. Recibió su nombre en homenaje al dios de la guerra de la mitología romana.
                                         Cuanto dura un día y una noche en Marte = La duración del dia y de la noche en Marte, es prácticamente la misma que en la Tierra, de 24 h y media aproximadamente.                                                                     
                                         Cuanto dura un año en marte = un año en marte dura 6869726 días terrestres.                                 
                                       De que está compuesto marte =  La superficie de Marte está compuesta principalmente de basalto toleítico (una de las dos principales series de magma en rocas ígneas), aunque las partes son más ricas en sílice que el basalto típico y pueden ser similares a las rocas andesíticas en la Tierra.                                
-                                       Cuál es la distancia entre el sol y Marte = En el perihelio Marte se encuentra a 206,7 millones de km del Sol.
-                                        Afelio: punto de la órbita más alejado del Sol.
-                                        Perihelio: punto de la órbita más próximo al Sol.  
-	                                    </p>  
+                                       Cuál es la distancia entre el sol y Marte 
+	                                </p>  
+									<button onclick="ocultar('parrafo4');">Ver menos</button> 
                         		</div>
 							</div>
 						</div>
@@ -87,15 +91,17 @@
 							<div class="bloque-img-servicio cuadrado-perfecto">
 								<img src="img/Tierra.jpg">
 							</div>
-							<div id="parrafo4" class="bloque-contenido-servicio">
-								<button id="button"onclick="mostrar();">Planeta Tierra</button>   <button id="button"onclick="ocultar();">Ver menos</button> 
+							<div>
+								<button onclick="mostrar('parrafo5');">Planeta Tierra</button> 
+							</div>
+							<div id="parrafo5" class="parrafo5">								  
 								<p> La tierra existe hace 4500 millone de años 
                                     Como esta compuesta la tierra = La estructura interna de la Tierra está formada por capas esféricas concéntricas: una corteza sólida de silicatos exterior, una astenosfera y un manto altamente viscosos, un núcleo externo líquido que es mucho menos viscoso que el manto y un núcleo interno sólido.
                                     Cuanto dura un día  en la tierra = Cuando piensas en un día, lo primero que te viene a la mente es el ciclo día-noche. Esto es lo que llamamos día solar. En la Tierra, un día solar dura unas 24 horas. Sin embargo, la órbita de la Tierra es elíptica, es decir, no forma un círculo perfecto. Así, algunos días terrestres son unos minutos más largos que las típicas 24 horas, y otros son algo más cortos.                                                                   
                                     Cuánto dura un año en la tierra = La duración exacta que le damos al año de 365 días (o 366 en los bisiestos).                                    
-                                    Cuál es  la distancia entre el sol y la tierra= La distancia entre la tierra y el sol es 150.000.000 km, es decir, unas 100 veces el diámetro del sol. Sitúa las dos esferas del punto anterior a una distancia tal que representa la posición del sol y la tierra.
-                                    
+                                    Cuál es  la distancia
 								</p>
+								<button onclick="ocultar('parrafo5');">Ver menos</button> 
 							</div>
 						</div>
                 	</div>
@@ -104,13 +110,16 @@
 							<div class="bloque-img-servicio cuadrado-perfecto">
 								<img src="img/Jupiter.jfif">
 							</div>
-							<div id="parrafo5"class="bloque-contenido-servicio">
-								<button id="button"onclick="mostrar();">Planeta Jupiter</button> <button id="button"onclick="ocultar();">Ver menos</button>  
+							<div>
+								<button onclick="mostrar('parrafo6');">Planeta Jupiter</button>
+							</div>
+							<div id="parrafo6"class="parrafo6">								 
 								<p>La existencia de júpiter es  4.603 miles de millones años  es el planeta más grande del sistema solar y el quinto en orden de lejanía al Sol. Es un gigante gaseoso que forma parte de los denominados planetas exteriores.
                                     Cuanto dura un día y una noche en júpiter = Una noche en júpiter dura casi 5 horas.El día completo dura 9 horas y 56 minutos.
                                     Cuanto dura un año en júpiter = La duración de un año en júpiter es de 12 años. 
                                     De que está compuesto Júpiter = Júpiter es una gigantesca bola de gas, sin superficie sólida. Está mayormente constituido por hidrógeno y helio, que son gases muy ligeros. 
                                </p>
+							   <button onclick="ocultar('parrafo6');">Ver menos</button>  
 							</div>
 						</div>
 					</div>
@@ -119,12 +128,15 @@
 							<div class="bloque-img-servicio cuadrado-perfecto">
 								<img src="img/Saturno.jpg">
 							</div>
-							<div id="parrafo6" class="bloque-contenido-servicio">
-								<button id="button"onclick="mostrar();">Planeta saturno</button> <button id="button"onclick="ocultar();">Ver menos</button>
+							<div>
+								<button onclick="mostrar('parrafo7');">Planeta saturno</button> 
+							</div>
+							<div id="parrafo7" class="parrafo7">								
 								<p>La existencia de Saturno es de 4.503 miles de millones años es el sexto planeta del sistema solar contando desde el Sol, el segundo en tamaño y masa después de Júpiter y el único con un sistema de anillos visible desde la Tierra.
 									Cuanto es un día en saturno =  un día en saturno es de 10 horas, 33 minutos y 38 segundos. Cuanto dura un año en saturno = un año en saturno  dura 29 años terrestres. De que está compuesto saturno = Superado en tamaño sólo por Júpiter, Saturno está formado principalmente por hidrógeno y helio, dos gases livianos. Dentro de Saturno pueden caber 764 Tierras, pero el gigante gaseoso pesa sólo 95 veces lo que nuestro mundo rocoso. 
 									Cual es la distancia entre sol y saturno =Saturno gira alrededor del Sol a una distancia media de 1418 millones de kilómetros en una órbita de excentricidad de 0,056, que sitúa el afelio a 1500 millones de kilómetros, y el perihelio a 1240 millones.
 								</p>
+								<button onclick="ocultar('parrafo7');">Ver menos</button>
 							</div>
 						</div>
 					</div>
@@ -133,13 +145,16 @@
 							<div class="bloque-img-servicio cuadrado-perfecto">
 								<img src="img/pluton.jpg">
 							</div>
-							<div id="parrafo7" class="bloque-contenido-servicio">
-								<button id="button"onclick="mostrar();">Planeta pluton</button> <button id="button"onclick="ocultar();">Ver menos</button>
-								<p>	Plutón = 90 años de Plutón, el planeta cuestionado. Plutón es un planeta complejo y misterioso con montañas, valles, llanuras, cráteres y quizás glaciares. Descubierto en 1930, Plutón fue considerado durante mucho tiempo el noveno planeta de nuestro sistema solar.
+							<div>
+								<button onclick="mostrar('parrafo8');">Planeta pluton</button>
+							</div>
+							<div id="parrafo8" class="parrafo8">								 
+								<p>	90 años de Plutón, el planeta cuestionado. Plutón es un planeta complejo y misterioso con montañas, valles, llanuras, cráteres y quizás glaciares. Descubierto en 1930, Plutón fue considerado durante mucho tiempo el noveno planeta de nuestro sistema solar.
 									Cuanto dura un día y una noche en plutón = Un día en Plutón dura 153 horas, o aproximadamente 6 días terrestres.
 									Cuanto dura un año en plutón = Un año en Plutón son 248 años terrestres. Un día en Plutón dura 153 horas, o aproximadamente 6 días terrestres. Plutón está oficialmente clasificado como un planeta enano. Plutón tiene una atmósfera delgada de nitrógeno, metano
 									Cuál es la distancia entre plutón y el sol = El planeta enano Plutón se encuentra a unos 3660 millones de millas (5.890.199.040 km) del sol, que es 0,0006225945297850989 años luz.
 								</p>
+								<button onclick="ocultar('parrafo8');">Ver menos</button>
 							</div>
 						</div>
 					</div>	
