@@ -1,5 +1,5 @@
 
-var imgPrincipal = document.getElementById("imgPrincipal");
+var imgPrincipal = document.getElementById("imginitial");
 
 //Now, we need to add an Event Listener to listen when the image gets mouse over.
 
@@ -16,7 +16,7 @@ function mostrar(idElement){
     document.getElementById(idElement).style.display='block';
 }
 
-function ocultar(){
+function ocultar(idElement){
     document.getElementById(idElement).style.display='none';
 }
 

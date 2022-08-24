@@ -68,7 +68,7 @@ header .container .logo{
 
 header .container nav a
 {
- color: red;
+ color: rgb(87, 185, 172);
  text-decoration: none;
  margin: 0 15px;
 }
@@ -95,20 +95,20 @@ header .container .hamb
 	position: relative;
 }
 
-#inicio{
+#initial{	
 	position: relative;
 }
 
 
 
-#inicio img{
+#initial img{
 	width: 60%;
 	height: 60%;
 	display: block;
 	margin-left:260px;
 }
 
-#inicio button{
+#initial button{
 	margin-top: 5px;
 	border-radius: 5px;
 	background-color: lightgray;	
@@ -117,19 +117,19 @@ header .container .hamb
 	margin-left:600px;
 }
 
-#inicio .parrafo{
+#initial .paragraph{
 	display: none;
 }
 
 
-#inicio p{
+#initial p{
 	font-size: 20px;
 	font-family: Arial, Helvetica, sans-serif;	
 	width: 800px;
 	margin-left:260px;
 }
 
-#servicios .bloque-servicio button{
+#services .service-block button{
 	margin-top: 5px;
 	border-radius: 5px;
 	background-color: lightgray;	
@@ -138,31 +138,31 @@ header .container .hamb
 
 }
 
-#servicios .parrafo2{
+#services .paragraph2{
 	display: none;
 }
 
-#servicios .parrafo3{
+#services .paragraph3{
 	display: none;
 }
 
-#servicios .parrafo4{
+#services .paragraph4{
 	display: none;
 }
 
-#servicios .parrafo5{
+#services .paragraph5{
 	display: none;
 }
 
-#servicios .parrafo6{
+#services .paragraph6{
 	display: none;
 }
 
-#servicios .parrafo7{
+#services .paragraph7{
 	display: none;
 }
 
-#servicios .parrafo8{
+#services .paragraph8{
 	display: none;
 }
 
@@ -207,24 +207,24 @@ header .container .hamb
 	margin-left: 0%;
 }
 
-#servicios .bloque-servicio{
+#services .service-block{
 	border: 1px solid grey;
 }
 
 
-#servicios .bloque-servicio .bloque-img-servicio img{
+#services .service-block .bloque-img-servicio img{
 	width: 100%;
 }
 
-#servicios .bloque-servicio .bloque-img-servicio.cuadrado-perfecto{
+#services .service-block .bloque-img-servicio.cuadrado-perfecto{
 	padding-bottom: 56.25%;
 }
 
-#servicios .bloque-servicio .bloque-contenido-servicio{
+#services .service-block .bloque-contenido-servicio{
 	padding: 15px;
 }
 
-#servicios .bloque-servicio .bloque-contenido-servicio h3{
+#services .service-block .bloque-contenido-servicio h3{
 	margin-top: 0;
 	font-size: 25px;
 }
@@ -262,17 +262,7 @@ header .container .hamb
     	
     }
 
-    header .container .hamb{
-    	display: block;
-    	font-size: 40px;
-    	color: red;
-    	
-    }
-    .container{
-		width: 100%;
-
-    }
-
+    
     .columna-mobile-100{
     	width: 100%;
     }
@@ -282,29 +272,10 @@ header .container .hamb
     	width: 50%;
     }
 
-    .empujar-mobile-0{
-    	margin-left: 0;
-    }
-
-    .sinpadding-mobile{
-    	padding: 0;
-    }
+}
 
 
-
-    #inicio{
-    	height: 100vh;
-    }
-
-     #inicio img{
-    	height: 100%;
-    	object-fit: cover;
-    	object-position: center;
-    }
-
-    #servicios .bloque-servicios{
-    	margin-bottom: 15px;
-    }
+    
 
 
 
